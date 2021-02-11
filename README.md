@@ -297,6 +297,10 @@ To run the project from your local machine, follow these steps:
 
     - `gh repo clone anronuay/MS3-task_wizard`
 
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
+
 <span id="credits"></span>
 
 ## Credits
