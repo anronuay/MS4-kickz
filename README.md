@@ -52,11 +52,11 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 *   ### Wireframes
 
-    -   Desktop Wireframes - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-desktop.wireframe-home:tasks.page.png)
+    -   Desktop Wireframes - [View](https://github.com/anronuay/MS4-kickz/blob/master/wireframes/desktop-wireframes.pdf)
     
-    -   Tablet Wireframes - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-tablet.wireframe-home:tasks.page.png)
+    -   Tablet Wireframes - [View](https://github.com/anronuay/MS4-kickz/blob/master/wireframes/tablet-wireframes.pdf)
     			
-    -   Mobile Wireframes - [View](https://github.com/anronuay/MS3-task_wizard/blob/master/wireframes/bw-smartphone.wireframe-home:tasks:register:login:profile.page.png)
+    -   Mobile Wireframes - [View](https://github.com/anronuay/MS4-kickz/blob/master/wireframes/smartphone-wireframes.pdf)
     
 *   ### Database Schema  
 
@@ -134,7 +134,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS3-task_wizard/tree/master/wireframes) during the design process.
+    - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS4-kickz/tree/master/wireframes) during the design process.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
 1. [Favicon.io:](https://favicon.io/)
