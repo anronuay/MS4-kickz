@@ -62,6 +62,10 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 ![Data Schema](static/images/database.schema-task.wizard.png)
 
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
+
 <span id="features"></span>
 
 ## Features
@@ -82,7 +86,17 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 -   Marks tasks completed, instead of deleting it from the database/website. A history of previously completed tasks on the user's profile.
 -   Apply some defensive programming, to confirm if user wants to delete an action/task or not. To prevent accidental deleted entries.
 
-### 
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
+
+<span id="information-architecture"></span>
+
+## Information Architecture
+
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
 
 <span id="technologies"></span>
 
@@ -131,6 +145,10 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     - Generate or browse beautiful colour combinations for your designs.
 1. [Lucidchart:](https://www.lucidchart.com/pages/)
     - Lucidchart is a web-based proprietary platform that allows users to collaborate on drawing, revising and sharing charts and diagrams.
+
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
 
 <span id="testing"></span>
 
@@ -230,6 +248,10 @@ Using the Materialize layout and mobile fist development method, it allowed me t
 
 - MongoDB, storing the Object ID as the primary key for the collection, due to it being a unique identifier. However, within this website/scenario, we have to assume both the Username & Category Name are not changeable and unique. As this can potentially run into errors, due to them being (VARCHAR) string variants.
 
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
+
 <span id="deployment"></span>
 
 ## Deployment
@@ -298,3 +320,7 @@ To run the project from your local machine, follow these steps:
 -   Code Institute's Tutor support team, my Mentor and the Slack community.
 
 **This is for educational use.**
+
+<div align="right">
+    <a href="#table-of-contents"> ⇧ Back To Top </a>
+</div>
