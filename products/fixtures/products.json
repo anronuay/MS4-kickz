@@ -237,7 +237,7 @@
     "pk": 19,
     "model": "products.product",
     "fields": {
-      "sku": "kz019",
+      "sku": "kz0019",
       "name": "Adidas Pulseboost HD Shoes",
       "description": "The city has an energy. It crackles in the air and throbs under the street. Tap into the vibe in these adidas running shoes. The responsive cushioning returns energy to your stride with a firm feel that keeps you connected to the ground.",
       "price": 87.96,
