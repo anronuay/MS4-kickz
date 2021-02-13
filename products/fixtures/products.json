@@ -1,0 +1,327 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0001",
+      "name": "Nike Air Jordan X Louis Vuitton Custom",
+      "description": "To celebrate Virgil Abloh's appointment as creative director of Louis Vuitton, NYC-based artist Ceeze tapped Relevant Customs to create what the duo has dubbed the \"OFF–LOUIS\" Air Jordan 1s.",
+      "price": 212.00,
+      "brand": 6,
+      "rating": 4.6,
+      "image": "nike1.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0002",
+      "name": "Nike Air Max 1 Just Do It Pack White",
+      "description": "This year, the tagline turns 30. To celebrate the anniversary, this special-edition Air Max 1 from the Just Do It Collection features the tagline's original font and graphics from its 1988 debut.",
+      "price": 109.95,
+      "brand": 6,
+      "rating": 4.6,
+      "image": "nike2.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0003",
+      "name": "Nike Air Max 1 ND \"Have a Nike Day\"",
+      "description": "The Nike Air Max 1 \"Have a Nike Day\" is a special edition of the classic runner that released as part of the \"Have a Nike Day\" pack in 2019. The colourful collection was inspired by a vintage \"Have a Nike Day\" slogan from the early days of the brand.",
+      "price": 194.00,
+      "brand": 6,
+      "rating": 4.7,
+      "image": "nike3.jpg"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0004",
+      "name": "Nike Cortez Basic",
+      "description": "The Nike Cortez Basic is inspired by the 1972 original. Although it has gone through many incarnations, this version features leather in the upper for a return to the style icon's roots.",
+      "price": 48.97,
+      "brand": 6,
+      "rating": 3,
+      "image": "nike4.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0005",
+      "name": "Nike Air Force 1 Mid '07",
+      "description": "Elevate your game with the force of OG hoops. From leather that's smoother than backboard glass to the aggressive stance that says \"bring it on\", it's everything you know best: crisp overlays, bold accents and the perfect amount of flash to make you shine.",
+      "price": 89.95,
+      "brand": 6,
+      "rating": 5,
+      "image": "nike5.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0006",
+      "name": "Vans Sk8-Hi Shoes",
+      "description": "A lightweight, lace-up, high top shoe, the Vans Sk8-Hi features heel cushioning for extra comfort, re-enforced toecaps for durability, and padded collars for support and flexibility.",
+      "price": 65.00,
+      "brand": 10,
+      "rating": 4.7,
+      "image": "vans1.jpg"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0007",
+      "name": "Vans Checkerboard Classic Slip-On Shoes",
+      "description": "A low profile, slip-on shoe, the Vans Classic Slip-On has elastic side accents and padded collars for extra comfort. It also features the Vans flag label and signature waffle outsoles for firmer grip.",
+      "price": 59,
+      "brand": 10,
+      "rating": 4.4,
+      "image": "vans2.jpg"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0008",
+      "name": "Vans Old Skool V Shoes",
+      "description": "The Old Skool V, inspired by the classic Vans skate shoe, features a low profile silhouette with sturdy canvas and suede uppers, hook-and-loop closures, padded collars for support and flexibility, and signature rubber waffle outsoles.",
+      "price": 40.00,
+      "brand": 10,
+      "rating": 4.5,
+      "image": "vans3.jpg"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0009",
+      "name": "Vans Authentic Shoes",
+      "description": "The Authentic, Vans original and now iconic style, is a simple low top, lace-up with durable canvas upper, metal eyelets, Vans flag label and Vans original Waffle Outsole.",
+      "price": 52.00,
+      "brand": 10,
+      "rating": 4.7,
+      "image": "vans4.jpg"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0010",
+      "name": "Converse Laser Orange Chuck Taylor All Star High Top",
+      "description": "The laid-back legend is back in fresh colours. Ready for dressing up or down, these classic canvas Chucks are an everyday wardrobe staple. Plus, we've softened up the lining, stitching and seams for maximum comfort all-day, every day.",
+      "price": 39.99,
+      "brand": 2,
+      "rating": 4.4,
+      "image": "converse1.jpg"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0011",
+      "name": "Converse Blue Chuck Taylor All Star Classic",
+      "description": "The Chuck Taylor All Star is the most iconic sneaker in the world, recognised for its unmistakable silhouette, star-centred ankle patch and cultural authenticity. And like the best paradigms, it only gets better with time.",
+      "price": 52.00,
+      "brand": 2,
+      "rating": 3,
+      "image": "converse2.jpg"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0012",
+      "name": "Converse Black Chuck 70 Classic High Top",
+      "description": "The Converse All Star Chuck 70 is our re-crafted sneaker that uses modern details to celebrate the original Chuck Taylor All Star from the 1970s.",
+      "price": 75.00,
+      "brand": 2,
+      "rating": 4.6,
+      "image": "converse3.jpg"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0013",
+      "name": "Converse White Chuck Taylor All Star Classic",
+      "description": "The Chuck Taylor All Star high top is the most iconic sneaker in the world, recognised for its unmistakable silhouette, star-centred ankle patch and cultural authenticity. And like the best paradigms, it only gets better with time.",
+      "price": 57.00,
+      "brand": 2,
+      "rating": 3.2,
+      "image": "converse4.jpg"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0014",
+      "name": "Converse Mint Green Platform Chuck Taylor All Star Low Top",
+      "description": "New heights. New colours. Just in time for brighter days, we've updated our iconic low top with a stacked platform sole and bold, new colors. Stand tall and stand out.",
+      "price": 65.00,
+      "brand": 2,
+      "rating": 4.7,
+      "image": "converse5.jpg"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0015",
+      "name": "Adidas Own The Game Shoes",
+      "description": "Work the lane and slash through traffic in these mid-cut basketball shoes. The durable Adiwear outsole provides dual-zone traction while you create separation on the court.",
+      "price": 46.71,
+      "brand": 1,
+      "rating": 4.8,
+      "image": "adidas1.jpg"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0016",
+      "name": "Adidas Ultraboost 20 Shoes",
+      "description": "A new day. A new run. Make it your best. These high-performance shoes feature a foot-hugging knit upper. Stitched-in reinforcement is precisely placed to give you support in the places you need it most.",
+      "price": 160.00,
+      "brand": 1,
+      "rating": 4.4,
+      "image": "adidas2.jpg"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0017",
+      "name": "Adidas Superstar Bold Shoes",
+      "description": "An icon gets an update. These adidas Superstar Bold Shoes are equal parts timeless and trendy. Just like the original, they've got a smooth leather upper with serrated 3-Stripes.",
+      "price": 62.97,
+      "brand": 1,
+      "rating": 4.4,
+      "image": "adidas3.jpg"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0018",
+      "name": "Adidas Climacool Ventania Shoes",
+      "description": "Inhale. Exhale. Put one foot in front of the other. Even when the sun is out and the pavement is sizzling, these adidas running shoes let you focus on your head-clearing run.",
+      "price": 85.00,
+      "brand": 1,
+      "rating": 4.8,
+      "image": "adidas4.jpg"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz019",
+      "name": "Adidas Pulseboost HD Shoes",
+      "description": "The city has an energy. It crackles in the air and throbs under the street. Tap into the vibe in these adidas running shoes. The responsive cushioning returns energy to your stride with a firm feel that keeps you connected to the ground.",
+      "price": 87.96,
+      "brand": 1,
+      "rating": 5,
+      "image": "adidas5.jpg"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0020",
+      "name": "Fila Multi Ray Tracer TR 2 Trainers",
+      "description": "These newly updated Ray Tracer TR 2 Men's Trainers features lace-up fastening, cushioned sole and heel pull tab. Complete with detailed outerlay for some serious style.",
+      "price": 59.50,
+      "brand": 3,
+      "rating": 4.7,
+      "image": "fila1.jpg"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0021",
+      "name": "Gentle Monster Gold Classic Sunglasses",
+      "description": "Circular acetate Flatba framed sunglasses, designed to be versatile in style. Part of the first collection to use the Gentle Monster logo on the temple.",
+      "price": 145.00,
+      "brand": 4,
+      "rating": 4.3,
+      "image": "sunglasses1.jpg"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0022",
+      "name": "Ray-Ban Original Wayfarer Classic",
+      "description": "Ray-Ban Original Wayfarer Classics are the most recognisable style in the history of sunglasses. Since its initial design in 1952, Wayfarer Classics gained popularity among celebrities, musicians, artists and those with an impeccable fashion sense.",
+      "price": 112.00,
+      "brand": 8,
+      "rating": 5,
+      "image": "sunglasses2.jpg"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0023",
+      "name": "Nixon Sentry Chrono Watch",
+      "description": "Raising the bar. Anything but standard, this custom-built chronograph helps strike a rugged balance of technical functionality and elevated style.",
+      "price": 325.00,
+      "brand": 7,
+      "rating": 4.8,
+      "image": "watch1.jpg"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0024",
+      "name": "Seiko Yacht Timer Sports 150",
+      "description": "In 1995 Seiko introduced the Yacht Timer Sports 200  models, as part of The Great Blue series. Inspired by the older mechanical movements, Seiko developed the first quartz movement with the 5-dot countdown system, caliber 6M37-6010.",
+      "price": 125.00,
+      "brand": 9,
+      "rating": 3.8,
+      "image": "watch2.jpg"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "kz0025",
+      "name": "Hamilton Jazzmaster Gent Quartz",
+      "description": "Understated, yet bold, the Jazzmaster Gent is a contemporary take on a traditional watch. Sophisticated, simple and tastefully designed, this quartz watch is the perfect choice for the distinguished gentleman.",
+      "price": 195.00,
+      "brand": 5,
+      "rating": 3,
+      "image": "watch3.jpg"
+    }
+  }
+]

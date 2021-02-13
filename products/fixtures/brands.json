@@ -1,0 +1,82 @@
+[
+  {
+    "pk": 1,
+    "model": "products.brand",
+    "fields": {
+      "name": "adidas",
+      "friendly_name": "Adidas"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.brand",
+    "fields": {
+      "name": "converse",
+      "friendly_name": "Converse"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.brand",
+    "fields": {
+      "name": "fila",
+      "friendly_name": "Fila"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.brand",
+    "fields": {
+      "name": "gentle_monster",
+      "friendly_name": "Gentle Monster"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.brand",
+    "fields": {
+      "name": "hamilton",
+      "friendly_name": "Hamilton"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.brand",
+    "fields": {
+      "name": "nike",
+      "friendly_name": "Nike"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.brand",
+    "fields": {
+      "name": "nixon",
+      "friendly_name": "Nixon"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.brand",
+    "fields": {
+      "name": "ray_ban",
+      "friendly_name": "Ray-Ban"
+    }
+  },
+   {
+    "pk": 9,
+    "model": "products.brand",
+    "fields": {
+      "name": "seiko",
+      "friendly_name": "Seiko"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.brand",
+    "fields": {
+      "name": "vans",
+      "friendly_name": "Vans"
+    }
+  }
+]
