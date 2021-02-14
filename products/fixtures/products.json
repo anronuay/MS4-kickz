@@ -174,7 +174,7 @@
     "fields": {
       "sku": "kz0014",
       "name": "Converse Mint Green Platform Chuck Taylor All Star Low Top",
-      "description": "New heights. New colours. Just in time for brighter days, we've updated our iconic low top with a stacked platform sole and bold, new colors. Stand tall and stand out.",
+      "description": "New heights. New colours. Just in time for brighter days, we've updated our iconic low top with a stacked platform sole and bold, new colours. Stand tall and stand out.",
       "price": 65.00,
       "brand": 2,
       "rating": 4.7,
@@ -303,8 +303,8 @@
     "model": "products.product",
     "fields": {
       "sku": "kz0024",
-      "name": "Seiko Yacht Timer Sports 150",
-      "description": "In 1995 Seiko introduced the Yacht Timer Sports 200  models, as part of The Great Blue series. Inspired by the older mechanical movements, Seiko developed the first quartz movement with the 5-dot countdown system, caliber 6M37-6010.",
+      "name": "Seiko Yacht Timer Sports 150 Watch",
+      "description": "In 1995 Seiko introduced the Yacht Timer Sports 200 models, as part of The Great Blue series. Inspired by the older mechanical movements, Seiko developed the first quartz movement with the 5-dot countdown system, caliber 6M37-6010.",
       "price": 125.00,
       "brand": 9,
       "rating": 3.8,
