@@ -5,12 +5,12 @@
                 Footwear
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="footwear-link">
-                <a href="" class="dropdown-item">Adidas</a>
-                <a href="" class="dropdown-item ">Converse</a>
-                <a href="" class="dropdown-item ">Fila</a>
-                <a href="" class="dropdown-item">Nike</a>
-                <a href="" class="dropdown-item">Vans</a>
-                <a href="" class="dropdown-item">All Footwear</a>
+                <a href="{% url 'products' %}?brand=adidas" class="dropdown-item">Adidas</a>
+                <a href="{% url 'products' %}?brand=converse" class="dropdown-item ">Converse</a>
+                <a href="{% url 'products' %}?brand=fila" class="dropdown-item ">Fila</a>
+                <a href="{% url 'products' %}?brand=nike" class="dropdown-item">Nike</a>
+                <a href="{% url 'products' %}?brand=vans" class="dropdown-item">Vans</a>
+                <a href="{% url 'products' %}?brand=adidas,converse,fila,nike,vans" class="dropdown-item">All Footwear</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -18,9 +18,9 @@
                 Accessories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="accessories-link">
-                <a href="" class="dropdown-item">Sunglasses</a>
-                <a href="" class="dropdown-item">Watches</a>
-                <a href="" class="dropdown-item">All Accessories</a>
+                <a href="{% url 'products' %}?brand=gentle_monster,ray_ban" class="dropdown-item">Sunglasses</a>
+                <a href="{% url 'products' %}?brand=hamilton,nixon,seiko" class="dropdown-item">Watches</a>
+                <a href="{% url 'products' %}?brand=gentle_monster,ray_ban,hamilton,nixon,seiko" class="dropdown-item">All Accessories</a>
             </div>
         </li>
         <li class="nav-item dropdown">
