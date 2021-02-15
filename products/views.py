@@ -22,26 +22,27 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-
+            if sortkey == 'brand':
+                sortkey = 'brand__name'
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
-            if 'brand' in request.GET:
-                brands = request.GET['brand'].split(',')
-                products = products.filter(brand__name__in=brands)
-                brands = Brand.objects.filter(name__in=brands)
+        if 'brand' in request.GET:
+            brands = request.GET['brand'].split(',')
+            products = products.filter(brand__name__in=brands)
+            brands = Brand.objects.filter(name__in=brands)
 
-            if 'q' in request.GET:
-                query = request.GET['q']
-                if not query:
-                    messages.error(request, "You didn't enter any search criteria!")
-                    return redirect(reverse('products'))
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, "You didn't enter any search criteria!")
+                return redirect(reverse('products'))
 
-                queries = Q(name__icontains=query) | Q(description__icontains=query)
-                products = products.filter(queries)
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
 
