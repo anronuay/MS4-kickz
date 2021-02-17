@@ -42,13 +42,13 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 	
     -   ### Design
     -   #### Colour Scheme
-        -   The three main colours used are dim gray, yellow orange and persimmon. Keeping the colour scheme simple, yet effective.
+        -   The three main colours used are black, davys grey and white. Keeping the classic colour scheme simple, yet effective.
 	![Colour Scheme](static/images/coolors.colour.scheme.png)
 
     -   #### Typography
-        -   I opted to use the default Materialize font Roboto 2.0, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
+        -   I opted to use Google's font Lato, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
     -   #### Imagery
-        -   Due to the simplicity of the design and functionality of the website, I chose not to include imagery within the UX. However there could be further scope to include this in a future edition.
+        -   A strong hero image was used on the home page, to catch the user’s attention. Powerful imagery helps to engage the user and engage them into interaction with the website.
 
 *   ### Wireframes
 
