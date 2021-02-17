@@ -34,15 +34,38 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 -   ### User stories
 
-    -   ### Visitor Goals
+    -   #### Users:
 
-        1. As a user, I want to easily understand the main purpose of the site and learn more about the functionality of the website.
-        2. As a user, I want to be able to easily navigate throughout the site, to find and enage in content.
-        3. As a user, I want to be able to register or/and log in and access personal user profile/accounts relevant to the user. To enable them access to their own specified tasks, with the ability to create, read, update and delete functions.
-	
+        | As a/an | I want to be able to ... | So that I can ...|
+        | :------ | :-------------- | :----------- |
+        | Shopper | View a list of products | Select some to purchase |
+        | Shopper | View a specific brand of products | Quickly find brands I'm interested in without having to search through all products |
+        | Shopper | View individual product details | Identify the price, description, product rating, product image and available sizes |
+        | Shopper | Easily view the total of my purchases at any time |	Avoid spending too much money |
+        | Site User | Easily register for an account | Have a personal account and be able to view my profile |
+        | Site User | Easily login or logout | Access my personal account information |
+        | Site User | Easily recover my password in case I forget it | Recover access to my account |
+        | Site User | Receive an email confirmation after registering | Verify that my account registration was successful |
+        | Site User | Have a personalised user profile | View my personal order history and order confirmations and save my payment information |
+        | Shopper | Sort the list of available products | Easily identify the best rated, best priced and branded sorted products |
+        | Shopper | Sort a specific brand of product | Find the best-priced or best-rated product in a specific brand or sort the products in that brand by name |
+        | Shopper | Search for a product by name or description | Find a specific product I'd like to purchase |
+        | Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
+        | Shopper | Easily select the size and quantity of a product when purchasing | Ensure I don't accidentally select the wrong product, quantity or size |
+        | Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
+        | Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
+        | Shopper | Easily enter my payment information | Check out quickly and with no hassels |
+        | Shopper | Feel my personal and payment information is safe and secure | Confidently provide the needed information to make a purchase |
+        | Shopper | View an order confirmation afetr checkout | Verify that I haven't made any mistakes with my order |
+        | Shopper | Receive an email confirmation after checking out | Keep the confrimation of what I've purchased for my records |
+        | Store Owner | Add a product | Add new items to my store |
+        | Store Owner | Edit/update a product | Change product prices, descriptions, images and other product criteria |
+        | Store Owner | Delete a product | Remove items that are no longer for sale |
+
     -   ### Design
     -   #### Colour Scheme
         -   The three main colours used are black, davys grey and white. Keeping the classic colour scheme simple, yet effective.
+        
 	![Colour Scheme](static/images/coolors.colour.scheme.png)
 
     -   #### Typography
