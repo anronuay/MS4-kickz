@@ -34,33 +34,53 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 -   ### User stories
 
-    -   #### Users:
+    -   #### Viewing and Navigation
 
-        | As a/an       | I want to be able to ... | So that I can ...|
-        | :-------------| :------------------------| :----------------|
-        | Shopper       | View a list of products | Select some to purchase |
-        | Shopper       | View a specific brand of products | Quickly find brands I'm interested in without having to search through all products |
-        | Shopper       | View individual product details | Identify the price, description, product rating, product image and available sizes |
-        | Shopper       | Easily view the total of my purchases at any time | Avoid spending too much money |
-        | Site User     | Easily register for an account | Have a personal account and be able to view my profile |
-        | Site User     | Easily login or logout | Access my personal account information |
-        | Site User     | Easily recover my password in case I forget it | Recover access to my account |
-        | Site User     | Receive an email confirmation after registering | Verify that my account registration was successful |
-        | Site User     | Have a personalised user profile | View my personal order history, order confirmations and save my payment information |
-        | Shopper       | Sort the list of available products | Easily identify the best rated, best priced and branded sorted products |
-        | Shopper       | Sort a specific brand of product | Find the best-priced or best-rated product in a specific brand or sort the products in that brand by name |
-        | Shopper       | Search for a product by name or description | Find a specific product I'd like to purchase |
-        | Shopper       | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
-        | Shopper       | Easily select the size and quantity of a product when purchasing | Ensure I don't accidentally select the wrong product, quantity or size |
-        | Shopper       | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
-        | Shopper       | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
-        | Shopper       | Easily enter my payment information | Check out quickly and with no hassels |
-        | Shopper       | Feel my personal and payment information is safe and secure | Confidently provide the required information to make a purchase |
-        | Shopper       | View an order confirmation after checkout | Verify that I haven't made any mistakes with my order |
-        | Shopper       | Receive an email confirmation after checking out | Keep the confrimation of what I've purchased for my records |
-        | Store Owner   | Add a product | Add new items to my store |
-        | Store Owner   | Edit/update a product | Change product prices, descriptions, images and other product criteria |
-        | Store Owner   | Delete a product | Remove items that are no longer for sale |
+        | Done | As a/an | I want to be able to ... | So that I can ...|
+        | :----| :-------| :------------------------| :----------------|
+        |&checkmark;| Shopper | View a list of products | Select some to purchase |
+        |&checkmark;| Shopper | View a specific brand of products | Quickly find brands I'm interested in without having to search through all products |
+        |&checkmark;| Shopper | View individual product details | Identify the price, description, product rating, product image and available sizes |
+        |&checkmark;| Shopper | Easily view the total of my purchases at any time | Avoid spending too much money |
+
+    -   #### Registration and User Accounts
+
+        | Done | As a/an | I want to be able to ... | So that I can ...|
+        | :----| :-------| :------------------------| :----------------|
+        |&checkmark;| Site User | Easily register for an account | Have a personal account and be able to view my profile |
+        |&checkmark;| Site User | Easily login or logout | Access my personal account information |
+        |&checkmark;| Site User | Easily recover my password in case I forget it | Recover access to my account |
+        |&checkmark;| Site User | Receive an email confirmation after registering | Verify that my account registration was successful |
+        |&checkmark;| Site User | Have a personalised user profile | View my personal order history, order confirmations and save my payment information |
+        
+     -   #### Sorting and Searching
+
+        | Done | As a/an | I want to be able to ... | So that I can ...|
+        | :----| :-------| :------------------------| :----------------|
+        |&checkmark;| Shopper | Sort the list of available products | Easily identify the best rated, best priced and branded sorted products |
+        |&checkmark;| Shopper | Sort a specific brand of product | Find the best-priced or best-rated product in a specific brand or sort the products in that brand by name |
+        |&checkmark;| Shopper | Search for a product by name or description | Find a specific product I'd like to purchase |
+        |&checkmark;| Shopper | Easily see what I've searched for and the number of results | Quickly decide whether the product I want is available |
+
+    -   #### Purchasing and Checkout
+
+        | Done | As a/an | I want to be able to ... | So that I can ...|
+        | :----| :-------| :------------------------| :----------------|
+        |&checkmark;| Shopper | Easily select the size and quantity of a product when purchasing | Ensure I don't accidentally select the wrong product, quantity or size |
+        |&checkmark;| Shopper | View items in my bag to be purchased | Identify the total cost of my purchase and all items I will receive |
+        |&checkmark;| Shopper | Adjust the quantity of individual items in my bag | Easily make changes to my purchase before checkout |
+        |&checkmark;| Shopper | Easily enter my payment information | Check out quickly and with no hassels |
+        |&checkmark;| Shopper | Feel my personal and payment information is safe and secure | Confidently provide the required information to make a purchase |
+        |&checkmark;| Shopper | View an order confirmation after checkout | Verify that I haven't made any mistakes with my order |
+        |&checkmark;| Shopper | Receive an email confirmation after checking out | Keep the confrimation of what I've purchased for my records |
+
+    -   #### Admin and Store Management
+
+        | Done | As a/an | I want to be able to ... | So that I can ...|
+        | :----| :-------| :------------------------| :----------------|
+        |&checkmark;| Store Owner | Add a product | Add new items to my store |
+        |&checkmark;| Store Owner | Edit/update a product | Change product prices, descriptions, images and other product criteria |
+        |&checkmark;| Store Owner | Delete a product | Remove items that are no longer for sale |
 
 *   ### Design
     -   #### Colour Scheme
@@ -134,22 +154,34 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Materialize 1.0.0:](https://materializecss.com/getting-started.html)
-    - Materialize was used to assist with the responsiveness and styling of the website.
+1. [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Django 3.1.6:](https://www.djangoproject.com/start/)
+    - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+1. [Stripe:](https://stripe.com/gb)
+    - Stripe provides APIs that web developers can use to integrate payment processing into their websites and mobile applications.
+1. [Amazon S3:](https://aws.amazon.com/s3/)
+    - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Making the web more beautiful, fast, and open through great typography.
 1. [jQuery:](https://jquery.com/)
     - jQuery - JavaScript library.
-1. [Flask:](https://flask.palletsprojects.com/en/1.1.x/)
-    - Flask is a micro web framework written in Python.
-1. [MongoDB:](https://www.mongodb.com/)
-    - MongoDB is a cross-platform document-oriented database program. 
+1. [Django Allauth:](https://django-allauth.readthedocs.io/en/latest/installation.html)
+    - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+1. [Django-crispy-forms:](https://django-crispy-forms.readthedocs.io/en/latest/install.html)
+    - Django-crispy-forms is an application that helps to manage Django forms. It allows adjusting forms' properties (such as method, send button or CSS classes) on the backend without having to re-write them in the template.
+1. [Pillow:](https://pillow.readthedocs.io/en/stable/)
+    - Python Imaging Library that adds support for opening, manipulating, and saving many different image file formats.
+1. [Gunicorn:](https://gunicorn.org/)
+    - The Gunicorn "Green Unicorn" is a Python Web Server Gateway Interface HTTP server.
 1. [Jinja:](https://jinja.palletsprojects.com/en/2.11.x/)
     - Jinja is a modern and designer-friendly templating language for Python, modelled after Django’s templates.
-1. [PyMongo:](https://pypi.org/project/pymongo/)
-    - PyMongo is a Python distribution containing tools for working with MongoDB, and is the recommended way to work with MongoDB from Python.
-1. [Werkzeug:](https://pypi.org/project/Werkzeug/)
-    - Werkzeug is a comprehensive WSGI web application library.
+1. [SQLite3:](https://www.sqlite.org/index.html)
+    - Database used in development, automatically included with Django.
+1. [PostgreSQL:](https://www.postgresql.org/)
+    - Database used in production, installed to Heroku.
 1. [Heroku:](https://www.heroku.com/)
     - Heroku is a cloud platform as a service supporting several programming languages. 
 1. [Git](https://git-scm.com/)
@@ -160,6 +192,10 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
     - Balsamiq was used to create the [wireframes](https://github.com/anronuay/MS4-kickz/tree/master/wireframes) during the design process.
 1. [WebAIM:](https://webaim.org/resources/contrastchecker/)
     - Contrast checker, relevant in terms of accessibility and UX design.
+1. [Unsplash:](https://unsplash.com/)
+    - Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.
+1. [PicResize:](https://picresize.com/)
+    - Free original picture editing tool on the Internet. Used to help resize all the map info window images.
 1. [Favicon.io:](https://favicon.io/)
     - Free shortcut icon, website icon, tab icon, URL icon, or bookmark icon, associated with a particular website or web page.
 1. [Multi Device Website Mockup Generator:](https://techsini.com/multi-mockup/)
