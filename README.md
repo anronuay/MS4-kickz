@@ -53,7 +53,7 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
         |&checkmark;| Site User | Receive an email confirmation after registering | Verify that my account registration was successful |
         |&checkmark;| Site User | Have a personalised user profile | View my personal order history, order confirmations and save my payment information |
         
-     -   #### Sorting and Searching
+    -   #### Sorting and Searching
 
         | Done | As a/an | I want to be able to ... | So that I can ...|
         | :----| :-------| :------------------------| :----------------|
@@ -367,11 +367,12 @@ To run the project from your local machine, follow these steps:
 ### Code
 
 -   [W3Schools:](https://www.w3schools.com/) Online web tutorials used throughout, reinforcing my knowledge acquired through the course.
--   [Materialize 1.0.0:](https://materializecss.com/getting-started.html) A modern responsive front-end framework based on Material Design.
--   [Mike Dane:](https://www.youtube.com/channel/UCvmINlrza7JHB1zkIOuXEbw) YouTube Python & MongoDB Tutorials.
--   [freeCodeCamp.org:](https://youtu.be/Z1RJmh_OqeA) YouTube 'Learn Flask for Python - Full Tutorial'.
+-   [Bootstrap 4.5.3:](https://getbootstrap.com/docs/4.5/getting-started/introduction/) Bootstrap was used to assist with the responsiveness and styling of the website.
+-   [Mike Dane:](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW) YouTube Python Tutorials.
+-   [Traversy Media:](https://youtu.be/e1IyzVyrLSU) YouTube 'Python Django Crash Course'.
+-   [freeCodeCamp.org:](https://youtu.be/F5mRW0jo-U4) YouTube 'Python Django Web Framework - Full Course for Beginners'.
 -   [Stack Overflow:](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
--   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+DCP101+2017_T3/course/) Reference from Code Institute's Data Centric Development module & Task Manager Mini Project.
+-   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/course/) Reference from Code Institute's Full Stack Frameworks With Django module & Boutique Ado Project.
 
 
 ### Content
