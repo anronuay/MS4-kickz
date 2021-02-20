@@ -11,7 +11,7 @@ To test the website's checkout functionality, use the following payment credenti
 - **Card number:** 4242 4242 4242 4242
 - **Expiry date:** Any future date
 - **CVC:** Any 3 digits
-- **ZIP:** 42424
+- **ZIP:** Any 5 digits
 
 ## Demo
 A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
