@@ -1,1 +1,1 @@
-web: gunicorn kickzzz.wsgi:application
+web: gunicorn kickz.wsgi:application
