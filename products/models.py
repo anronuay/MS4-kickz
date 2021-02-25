@@ -13,7 +13,7 @@ class Brand(models.Model):
 
 
 class Product(models.Model):
-    brand = models.ForeignKey('Brand', null=True, blank=True, on_delete=models.SET_NULL)
+    brand = models.ForeignKey("Brand", null=True, blank=True, on_delete=models.SET_NULL)
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()

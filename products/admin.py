@@ -6,21 +6,21 @@ from .models import Product, Brand
 
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'sku',
-        'name',
-        'brand',
-        'price',
-        'rating',
-        'image',
+        "sku",
+        "name",
+        "brand",
+        "price",
+        "rating",
+        "image",
     )
 
-    ordering = ('sku',)
+    ordering = ("sku",)
 
 
 class BrandAdmin(admin.ModelAdmin):
     list_display = (
-        'friendly_name',
-        'name',
+        "friendly_name",
+        "name",
     )
 
 
