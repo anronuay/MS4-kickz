@@ -86,7 +86,7 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
     -   #### Colour Scheme
         -   The three main colours used are black, davys grey and white. Keeping the classic colour scheme simple, yet effective.
         
-	![Colour Scheme](static/images/coolors.colour.scheme.png)
+	![Colour Scheme](readme-docs/coolors.colour.scheme.png)
 
     -   #### Typography
         -   I opted to use Google's font Lato, due to it’s clean font style, which fitted in with the aesthetic I wanted for the website.
@@ -101,10 +101,6 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
     			
     -   Mobile Wireframes - [View](https://github.com/anronuay/MS4-kickz/blob/master/wireframes/smartphone-wireframes.pdf)
     
-*   ### Database Schema  
-
-![Data Schema](static/images/database.schema-task.wizard.png)
-
 <div align="right">
     <a href="#table-of-contents"> ⇧ Back To Top </a>
 </div>
@@ -160,8 +156,8 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
     - Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.
 1. [Stripe:](https://stripe.com/gb)
     - Stripe provides APIs that web developers can use to integrate payment processing into their websites and mobile applications.
-1. [Amazon S3:](https://aws.amazon.com/s3/)
-    - Amazon Simple Storage Service (Amazon S3) is an object storage service that offers industry-leading scalability, data availability, security, and performance.
+1. [AWS:](https://aws.amazon.com/)
+    - Amazon Web Services is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used throughout the website to add icons for aesthetic and UX purposes.
 1. [Google Fonts:](https://fonts.google.com/)
@@ -182,6 +178,12 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
     - Database used in development, automatically included with Django.
 1. [PostgreSQL:](https://www.postgresql.org/)
     - Database used in production, installed to Heroku.
+1. [Black:](https://black.readthedocs.io/en/stable/installation_and_usage.html)
+    - Black is the uncompromising Python code formatter.
+1. [Psycopg2-binary:](https://pypi.org/project/psycopg2-binary/)
+    - Used to allow PostgresSQL to be used with Python.
+1. [Boto3:](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+    - Aid the deployment of AWS S3.
 1. [Heroku:](https://www.heroku.com/)
     - Heroku is a cloud platform as a service supporting several programming languages. 
 1. [Git](https://git-scm.com/)
