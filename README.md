@@ -14,9 +14,9 @@ To test the website's checkout functionality, use the following payment credenti
 - **ZIP:** Any 5 digits
 
 ## Demo
-A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
+A live demo can be found [here](https://kickzzz.herokuapp.com/).
 
-<h2 align="center"><img src="static/images/website-mockup.image.png"></h2>
+<h2 align="center"><img src="readme-docs/website-mockup.image.png"></h2>
 
 ## Table of Contents
 
@@ -216,9 +216,9 @@ A live demo can be found [here](https://flask-task-wizard.herokuapp.com/).
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. Along with JS Hint to ensure there were no linting issues with my JavaScript and PEP 8 compliant Python code.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/w3c-css.validator.png)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
--   [PEP8 online](http://pep8online.com/) - [Results](https://github.com/anronuay/MS3-task_wizard/blob/master/static/images/pep8online.png)
+-   [PEP8 online](http://pep8online.com/)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -371,6 +371,7 @@ To run the project from your local machine, follow these steps:
 -   [Mike Dane:](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpMMs5lskzBApYXn0bl7emsW) YouTube Python Tutorials.
 -   [Traversy Media:](https://youtu.be/e1IyzVyrLSU) YouTube 'Python Django Crash Course'.
 -   [freeCodeCamp.org:](https://youtu.be/F5mRW0jo-U4) YouTube 'Python Django Web Framework - Full Course for Beginners'.
+-   [IDG TECHtalk:](https://youtu.be/InA-oAWu3Mo) YouTube 'Using the "black" code formatter in Python'.
 -   [Stack Overflow:](https://stackoverflow.com/) Public platform is used by nearly everyone who codes, to learn, share their knowledge and collaborate.
 -   [Code Institute:](https://courses.codeinstitute.net/courses/course-v1:CodeInstitute+FSF_102+Q1_2020/course/) Reference from Code Institute's Full Stack Frameworks With Django module & Boutique Ado Project.
 
