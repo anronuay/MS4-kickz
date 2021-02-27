@@ -271,7 +271,7 @@ Line Item Total | lineitem_total | max_digits=6, decimal_places=2, null=False, b
 1. [Unsplash:](https://unsplash.com/)
     - Beautiful, free images and photos that you can download and use for any project. Better than any royalty free or stock photos.
 1. [PicResize:](https://picresize.com/)
-    - Free original picture editing tool on the Internet. Used to help resize all the map info window images.
+    - Free original picture editing tool on the Internet. Used to help resize all the product images on the website.
 1. [Favicon.io:](https://favicon.io/)
     - Free shortcut icon, website icon, tab icon, URL icon, or bookmark icon, associated with a particular website or web page.
 1. [Multi Device Website Mockup Generator:](https://techsini.com/multi-mockup/)
@@ -279,7 +279,7 @@ Line Item Total | lineitem_total | max_digits=6, decimal_places=2, null=False, b
 1. [Coolors:](https://coolors.co/)
     - Generate or browse beautiful colour combinations for your designs.
 1. [Temp Mail:](https://temp-mail.org/en/)
-    - Disposable email - is a service that allows to receive email at a temporary address that self-destructed after a certain time elapses.
+    - Disposable emails - a service that allows users to receive emails at a temporary address that self-destructs after a certain time elapses.
 1. [Lighthouse:](https://developers.google.com/web/tools/lighthouse#devtools)
     - Lighthouse is an open-source, automated tool for improving the quality of web pages.
 1. [Lucidchart:](https://www.lucidchart.com/pages/)
@@ -298,7 +298,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
--   [PEP8 online](http://pep8online.com/) - Used Black to format my Python code, to ensure as much of the code is PEP8 compliant. Any remaining issues were left unresolved to ensure the app would remain functioning.
+-   [PEP8 online](http://pep8online.com/) - Used Black to format my Python code, to ensure as much of the code is PEP8 compliant. Any remaining issues were left unresolved to ensure the app would remain functioning. The following git command was used in the terrminal, 'flake8 --ignore=I201,E501,F401,F841,F403,E402 --exclude=__init__.py', to help identify the relevant issues.
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -397,7 +397,7 @@ Using the Bootstrap layout and mobile first development method, it allowed me to
     3. Three drop down menu categories, includes brands, accessories and all products (by price, rating and brand).
     4. Product images, includes product name, price, brand name and rating.
     5. Dropdown menu has further sorting and searching, by price, rating, name and brand.
-    6. Scroll back to top button/feature.
+    6. Scroll back to top button/feature. This is also included on all tablets and mobile devices.
     7. Flash messages to allow user responsive feedback from action.
     8. No console errors detected.
 
@@ -415,8 +415,9 @@ Using the Bootstrap layout and mobile first development method, it allowed me to
     3. Three drop down menu categories, includes brands, accessories and all products (by price, rating and brand).
     4. Product info page, includes product name, sku and price. With additional cost breakdown of shopping bag, subtotal, bag total, delivery and grand total.
     5. Quantity selector, to amended products in bag. With call to action buttons, 'keep shopping' or 'secure checkout'.
-    6. Flash messages to allow user responsive feedback from action.
-    7. No console errors detected.
+    6. Scroll back to top button/feature, available on mobile devices only.
+    7. Flash messages to allow user responsive feedback from action.
+    8. No console errors detected.
     
 6. Checkout: [View](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/website.screenshot-checkout.png)
     1. Search bar enables the user to search through all website products, using key words. Leads to products results page.
@@ -467,7 +468,7 @@ Using the Bootstrap layout and mobile first development method, it allowed me to
 
 11. Emails:
     1. Order confirmation [View](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/confirmation-order.png)
-    2. Confirmation email [View](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/confirm-email.png.png)
+    2. Confirmation email [View](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/confirm-email.png)
     3. Password reset email [View](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/password-reset-email.png)
    
 ### Known Bugs
@@ -480,7 +481,7 @@ Using the Bootstrap layout and mobile first development method, it allowed me to
 
 - On the majority of mobile devices, on the shopping bag page, with a product/item in the basket. The quantity tabs, more specifically the 'remove' link (on the right hand side), is obstructed slightly by the scroll back to top button/feature, at the bottom right of the page.
 
-- With the Superuser logged in and on the product management page. If quantities of a product/item are added in to the basket and then said product/item is deleted from the website/database, before deleting it from the user's basket. It throws an error, with a 'not found' page displayed. I have found going in to Chrome DevTools, inspect, application, cookies and deleting the session id, seems to restart and reload the page again. With sufficient time, this issue would be resolved before going live.
+- **Fixed bug.** With the Superuser logged in and on the product management page. If quantities of a product/item are added in to the basket and then said product/item is deleted from the website/database, before deleting it from the user's basket. It throws an error, with a 'not found' page displayed. This issue/error has now been resolved, with the generous help and guidance from my Mentor Antonio, in our final call session together.
 
 <div align="right">
     <a href="#table-of-contents"> ⇧ Back To Top </a>
@@ -605,9 +606,9 @@ if 'USE_AWS' in os.environ:
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 ```
-5. Add [custom_storages.py](https://github.com/anronuay/MS4-kickz/blob/master/custom_storages.py).
-6. Delete DISABLE_COLLECTSTATIC from Heroku Config Var.
-7. Push all the changes to Github/Heroku and all the static files will be uploaded to S3 bucket.
+4. Add [custom_storages.py](https://github.com/anronuay/MS4-kickz/blob/master/custom_storages.py).
+5. Delete DISABLE_COLLECTSTATIC from Heroku Config Var.
+6. Push all the changes to Github/Heroku and all the static files will be uploaded to S3 bucket.
 By setting up above, Heroku will run python3 manage.py collectstatic during the build process and look for static and media files.
 
 ### Automatic Deploy on Heroku
@@ -618,15 +619,16 @@ You can enable automatic deploy in the following steps that pushes update to Her
 
 
 ## Local Deployment
-For local deployment, you need to have an IDE (I used Gitpod for this project) and you need to install the following:
-- Git, Python3, PIP3
-Also, you need to create account in the following services if you don't own yet:
-- Stripe, AWS (S3 bucket) and Gmail email.
+For local deployment, you'll need to have an IDE (I used Gitpod for this project), and to have installed the following:
+- Git, Python3 and pip3.
+
+You'll also need to create accounts in the following services, if you don't have them already:
+- Stripe, AWS (S3 Bucket) and Gmail email.
 
 1. In the IDE you are using, copy and paste the following command into the terminal to clone this repository.
     `git clone https://github.com/anronuay/MS4-kickz.git`
-(the other ways to clone a repository are written in this [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository))
-2. Set up environment variable in your selected IDE, or you can create `.env` file in your root directory and add `.env` to `.gitignore` file, and add the following to the `.env` file.
+(further information on how to clone a repository are written in this [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository)).
+2. Set up environment variables in your selected IDE, or you can create `.env` file in your root directory and add `.env` to `.gitignore` file, and add the following to the `.env` file.
 ```
 import os  
 os.environ["DEVELOPMENT"] = "True"    
@@ -635,12 +637,12 @@ os.environ["STRIPE_PUBLIC_KEY"] = "<Your Stripe Public Key>"
 os.environ["STRIPE_SECRET_KEY"] = "<Your Stripe Secret Key>"    
 os.environ["STRIPE_WH_SECRET"] = "<Your Stripe WH Secret Key>"    
 ```
-3. Install all the required packages with `pip3 install -r requirements.txt`
-4. Migrate the models to create a database using in your IDE with `python3 manage.py makemigrations` and `python3 manage.py migrate`
+3. Install all the required packages with `pip3 install -r requirements.txt`.
+4. Migrate the models to create a database within your IDE with `python3 manage.py makemigrations` and `python3 manage.py migrate`.
 5. Load the data fixtures in to the database using the following command:
-`python3 manage.py loaddata <fixture_name>`
-6. Create a superuser for the Postgres database by running with `python3 manage.py createsuperuser`
-7. Now you can access the app using the command `python3 manage.py runserver`
+`python3 manage.py loaddata <fixture_name>`.
+6. Create a Superuser for the Postgres database by running with `python3 manage.py createsuperuser`.
+7. Now you can access the app using the command `python3 manage.py runserver`.
 
 <div align="right">
     <a href="#table-of-contents"> ⇧ Back To Top </a>
