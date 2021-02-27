@@ -111,17 +111,22 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
 
 ### Existing Features
 
+-   Fully functioning e-commerce store.
 -   Responsive on all device sizes.
 -   Interactive elements.
 -   Register a profile/account, Log In & Log Out functionality.
--   Create, Read, Update and Delete functionality, within the website database.
--   All users can create entries, after the register/log in process.
--   Admin only privileges, to manage products section/page.
--   Users can only edit and/or delete their own entries.
+-   Create, Read, Update and Delete functionality, within the website database, for Superusers (Admin).
+-   All users can shop/make purchases, after the register/log in process, to view their profile and order history.
+-   All guest users can shop/make purchases, without having to go through the register/log in process. Guest users will be unable to view their profile and order history.
+-   Admin only privileges, for Superusers to manage products section/page.
+-   Feedback system that reports successful and unsuccessful purchases to the user, with helpful pop-up messages.
+-   Security features to protect the website/store, to prevent malicious intent.
+- Stripe payment functionality.
+- Email integration, for user confirmations, for registration/password reset/order confrimation etc.
 
 ### Future Features
 
--   Admin user, to include additional formatting that includes the Admin user privileges to edit all tasks. Not just their own.
+-   
 -   Marks tasks completed, instead of deleting it from the database/website. A history of previously completed tasks on the user's profile.
 -   Apply some defensive programming, to confirm if user wants to delete an action/task or not. To prevent accidental deleted entries.
 
