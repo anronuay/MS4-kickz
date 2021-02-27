@@ -298,7 +298,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
--   [PEP8 online](http://pep8online.com/) - Used Black to format my Python code, to ensure as much of the code is PEP8 compliant. Any remaining issues were left unresolved to ensure the app would remain functioning. The following git command was used in the terrminal, 'flake8 --ignore=I201,E501,F401,F841,F403,E402 --exclude=__init__.py', to help identify the relevant issues.
+-   [PEP8 online](http://pep8online.com/) - Used Black to format my Python code, to ensure as much of the code is PEP8 compliant. Any remaining issues were left unresolved to ensure the app would remain functioning. The following git command was used in the terrminal, `flake8 --ignore=I201,E501,F401,F841,F403,E402 --exclude=__init__.py`, to help identify the relevant issues.
 
 ### Testing User Stories from User Experience (UX) Section
 
