@@ -116,7 +116,7 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
 -   Register a profile/account, Log In & Log Out functionality.
 -   Create, Read, Update and Delete functionality, within the website database.
 -   All users can create entries, after the register/log in process.
--   Admin only privileges, to manage categories section/page.
+-   Admin only privileges, to manage products section/page.
 -   Users can only edit and/or delete their own entries.
 
 ### Future Features
@@ -204,6 +204,10 @@ A live demo can be found [here](https://kickzzz.herokuapp.com/).
     - Multi device website mockup generator is a free online tool to test your responsive website on apple devices including Apple iMac, MacBook, iPad and iPhone.
 1. [Coolors:](https://coolors.co/)
     - Generate or browse beautiful colour combinations for your designs.
+1. [Temp Mail:](https://temp-mail.org/en/)
+    - Disposable email - is a service that allows to receive email at a temporary address that self-destructed after a certain time elapses.
+1. [Lighthouse:](https://developers.google.com/web/tools/lighthouse#devtools)
+    - Lighthouse is an open-source, automated tool for improving the quality of web pages.
 1. [Lucidchart:](https://www.lucidchart.com/pages/)
     - Lucidchart is a web-based proprietary platform that allows users to collaborate on drawing, revising and sharing charts and diagrams.
 
@@ -220,7 +224,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_input) - Only errors received, were relating to the Jinja syntax.
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/anronuay/MS4-kickz/blob/master/readme-docs/w3c-css.validator.png)
 -   [JS Hint Version 2.12.0](https://jshint.com/)
--   [PEP8 online](http://pep8online.com/)
+-   [PEP8 online](http://pep8online.com/) - Used Black to format my Python code, to ensure as much of the code is PEP8 compliant. Any remaining issues were left unresolved to ensure the app would remain functioning.
 
 ### Testing User Stories from User Experience (UX) Section
 
